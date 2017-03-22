@@ -41,7 +41,7 @@ function SendSlackMessage(e){
 
 
 
-// manda undifiend u [object, object]
+// manda undefined u [object, object]
 function Initialize() {
   var triggers = ScriptApp.getProjectTriggers();
   for (var i in triggers) {
